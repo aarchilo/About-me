@@ -1,0 +1,63 @@
+
+.cloud1{
+    position:absolute;
+   left:5%;
+    width:20%;
+}
+.cloud2{
+    position:absolute;
+    right:5%;
+    top:10%;
+    width:20%; 
+}
+body{
+    margin: 0px;
+    text-align: center;
+    font-family:cursive ;
+}
+h1{
+    margin-top: 0px;
+    color: black;
+    font-size: 300%;
+}
+h3{
+color: #D96098;
+font-size: 147%;
+text-decoration: none;
+
+}
+hr{
+
+    color:rgb(240, 206, 217);
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    height: 0px;
+    width:5%;
+    
+}
+.imgskill{
+    width:30%;
+}
+.link{
+    width:10%;
+}
+@media (max-width:707px)
+{
+    .cloud2{
+        right: -6%;
+    top: -1%;
+    }
+    .cloud1{
+        left:-1%;
+    }
+    .imgskill{
+        width: 60%;
+    }
+}
+@media (min-width:500px)
+{
+    .girl{
+
+    }
+}
